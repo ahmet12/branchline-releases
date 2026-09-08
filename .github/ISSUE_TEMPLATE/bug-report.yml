@@ -1,0 +1,75 @@
+name: Bug report
+description: Report a problem in Branchline.
+title: "[Bug] "
+labels: [bug, "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Reports and attachments are public. Do not include license keys, tokens, personal contact details, or private repository content.
+        For a security issue, use the [private reporting channel](https://github.com/ahmet12/branchline-releases/security/advisories/new). English and Turkish are welcome.
+  - type: input
+    id: version
+    attributes:
+      label: Branchline version and build
+      description: Find these in Branchline → About Branchline.
+      placeholder: Version and build number
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      description: Find this in Apple menu → About This Mac.
+      placeholder: macOS version number
+    validations:
+      required: true
+  - type: dropdown
+    id: processor
+    attributes:
+      label: Mac processor
+      options:
+        - Apple silicon
+        - Intel
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Tell us what you clicked or did. A small example is enough; do not upload your real repository.
+      placeholder: |
+        1. Open a repository...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: What happened instead? If it failed, include the error after removing sensitive details.
+    validations:
+      required: true
+  - type: textarea
+    id: attachments
+    attributes:
+      label: Additional context or reviewed attachments
+      description: Optional screenshots or a report saved from Help → Diagnostic Report. Review every attachment for private information first.
+    validations:
+      required: false
+  - type: checkboxes
+    id: review
+    attributes:
+      label: Before posting
+      options:
+        - label: I searched existing issues and reviewed my report and attachments for private information.
+          required: true

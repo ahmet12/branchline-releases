@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private security report
+    url: https://github.com/ahmet12/branchline-releases/security/advisories/new
+    about: Report a suspected vulnerability privately. Do not open a public issue.
+  - name: Support and activation guidance
+    url: https://github.com/ahmet12/branchline-releases/blob/main/SUPPORT.md
+    about: Read support guidance before sharing license or purchase details.

@@ -1,0 +1,38 @@
+name: Feature request
+description: Suggest an improvement to your Git workflow.
+title: "[Feature] "
+labels: [enhancement, "status: triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need a Branchline license to suggest an improvement. English and Turkish are welcome.
+        This report is public. Leave out private code, credentials, license keys, and personal contact details.
+  - type: textarea
+    id: need
+    attributes:
+      label: What are you trying to do?
+      description: Describe the workflow or problem this would help with.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How could Branchline help?
+      description: Describe the behavior you would like. If you have no specific design in mind, that is fine.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Alternatives or examples
+      description: Optional alternatives you tried, sketches, or screenshots. Use examples you can share publicly.
+    validations:
+      required: false
+  - type: checkboxes
+    id: review
+    attributes:
+      label: Before posting
+      options:
+        - label: I searched existing requests and reviewed my report and attachments for private information.
+          required: true
