@@ -9,9 +9,17 @@ or grant a right to use the application.
 
 ## Before the beta
 
-No application package is available from this repository yet. The first distribution
-will include the applicable beta usage terms. Commercial terms, pricing, trial duration,
-and device limits will be published when confirmed; they are not offered by this page.
+No application package is available from this repository yet. The beta documents are
+available now so invited testers can read them before downloading or activating:
+
+| Language | Beta usage terms | Privacy notice |
+| --- | --- | --- |
+| English | [Beta Terms](legal/beta/2026-09-08/terms.en.md) | [Privacy Notice](legal/beta/2026-09-08/privacy.en.md) |
+| Türkçe | [Beta Kullanım Koşulları](legal/beta/2026-09-08/terms.tr.md) | [Gizlilik Bildirimi](legal/beta/2026-09-08/privacy.tr.md) |
+
+Document version: **2026-09-08**. These are the same texts bundled in the upcoming beta.
+Publishing these documents does not open registration or grant a license.
+Commercial terms and pricing will be published separately before paid sales.
 
 ## Planned beta access
 
@@ -19,6 +27,11 @@ The developer will choose testers and privately provide individual activation co
 When available, the package on Releases will be downloadable by anyone, while use of
 the application will require a valid entitlement. A shared download link is not a shared
 license. Beta access does not automatically grant a future paid license.
+
+Each invitation provides **180 days from the first successful activation on one active
+Mac**. First activation requires an internet connection; activated access works offline
+until its recorded expiry. Reinstalling, updating, or changing Macs does not restart
+the period. See the Beta Terms above for device changes, expiry, and recovery behavior.
 
 The same application package will serve beta and commercial entitlements. A GitHub account
 will not be an application activation requirement. A GitHub account is needed to post
@@ -30,5 +43,5 @@ Branchline-owned material in this repository is covered by the [repository notic
 User-submitted issues and comments remain subject to their authors' rights and GitHub's terms.
 Third-party components retain their own licenses; see [third-party notice guidance](THIRD_PARTY_NOTICES.md).
 
-This page explains the current distribution status. It is not the customer EULA or a
-substitute for the beta or commercial terms that will accompany a release.
+This page summarizes distribution status. The linked Beta Terms and Privacy Notice
+provide the full beta conditions and data-handling details.

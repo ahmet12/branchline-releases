@@ -16,6 +16,13 @@ Include “Branchline” in the subject so it reaches the right product's suppor
 English and Turkish are welcome. Support is provided by Ahmet Kılıç, the independent
 developer behind Kylindravia.
 
+Read how invitations, license records, and support correspondence are handled:
+[Privacy Notice](legal/beta/2026-09-08/privacy.en.md) ·
+[Gizlilik Bildirimi](legal/beta/2026-09-08/privacy.tr.md).
+For beta duration, moving Macs, and recovery access, see
+[Beta Terms](legal/beta/2026-09-08/terms.en.md) ·
+[Beta Kullanım Koşulları](legal/beta/2026-09-08/terms.tr.md).
+
 Do not post your contact details, activation code, purchase information, or sensitive
 report in an issue. Never send passwords, Git credentials, or usable access tokens.
 

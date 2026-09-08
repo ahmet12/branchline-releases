@@ -52,7 +52,7 @@ There is no public trial or paid checkout available today.
 
 Invited testers will receive their activation details privately. An invitation or beta
 license does not automatically include a future paid license. Exact beta terms will
-accompany the first release.
+accompany the first release and are [available to read now in English and Turkish](USAGE.md#before-the-beta).
 
 ## Installation when the first release is available
 
