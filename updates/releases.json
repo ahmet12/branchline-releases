@@ -9,5 +9,17 @@
       "Branchline-0.1.0-5.zip": "10ecbdf9fd0700a74d4d66c381706f1727993e8bbc755fc466989e0903b5f94c",
       "SHA256SUMS.txt": "5909321e4573752aa76547fb01ee44987854177b85a95fdf04b246e136e77aa1"
     }
+  },
+  {
+    "tag": "v0.2.0",
+    "version": "0.2.0",
+    "build": "6",
+    "channel": "stable",
+    "sha256": {
+      "Branchline-0.2.0-6.dmg": "5f85f157ff9b7c59d818b50a360af247d779e248e6b077b7c83df7641aeb6304",
+      "Branchline-0.2.0-6.zip": "1ee9a3895551b29912b86f972a734d1173a1bb35d2c2ad893b6dc7668b3e51bd",
+      "SHA256SUMS.txt": "76b9913f870ea1a82507c6c72e0663dc80b776451cb4956a478cde68668f8a41"
+    },
+    "releaseDate": "1788900674"
   }
 ]

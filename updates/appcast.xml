@@ -4,6 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.2.0</title>
+            <pubDate>Wed, 09 Sep 2026 00:09:19 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.2.0
+
+- Large changed-file lists now recycle visible rows, reducing memory use while scrolling and searching.
+- Opening changed-file search defers text focus until the field is ready, avoiding expensive layout work in the click transaction.
+- Adds support for purchased licenses with separate device allowance, perpetual covered-version access and an update eligibility date. Existing personal invitation codes continue to work.
+- License Settings can release a Mac's activation and open purchase management. Paid terms and privacy notices are available in English and Turkish.
+- Updates check purchased coverage before downloading and again before installation; repository history, drafts and recovery remain accessible if a release is outside coverage.
+
+Requires macOS 14 or later. Supports Apple silicon and Intel.
+Paid checkout availability is announced separately after store approval.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.zip" length="13921486" type="application/octet-stream" sparkle:edSignature="T3GdSTGgdHQknwP+Gbo6Vu5TnfJrYcclXOSac1iyZ1De2gNb01w/rWT9AEGPklCYuQy5Po22t2Y8+TeRfulCAQ=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788900674</branchline:releaseDate></item>
+        <item>
             <title>0.1.0</title>
             <pubDate>Tue, 08 Sep 2026 17:09:28 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -33,9 +53,10 @@ There is no required beta testing program, public trial, paid checkout or automa
 [Personal Access Terms and Privacy Notice](https://github.com/ahmet12/branchline-releases/blob/main/USAGE.md)
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.zip" length="13863217" type="application/octet-stream" sparkle:edSignature="czO/tq6T8rjaGFD3xqnl0BZbP8ZUGjnDX2p4p8HjU5HmmDbV65H4pRtgN4gaowTEzBLsffuRnkEc9K+c0YDYBQ=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+        </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: e2MOLU+bBXBoE4PQUo4jDskaKd78sf52UGcJ8jt/A96xXBxqKT6Z1u4GODiVty8WPLYCl/o8Q26agPbUkq8YDA==
-length: 2729
+edSignature: 0PJKPH+U955KRMRgNN29ayftFRg7L34WM3azC22fEfy0xaalR1WWGX1QHBLcS/o5uKW66zTeIQdDF0xsp7ODBg==
+length: 4526
 -->
