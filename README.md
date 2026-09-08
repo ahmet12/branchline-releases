@@ -12,7 +12,7 @@ Readable history. Full-size diffs. Room to resolve conflicts.
 
 </div>
 
-**[Download Branchline 0.1.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.1.0)
+**[Download Branchline 0.2.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.2.0)
 
 macOS 14 or later · Apple silicon and Intel · Signed and notarized by Apple
 
@@ -47,7 +47,7 @@ read their history in a resizable graph, and keep the details of the selected co
 
 ## Install
 
-1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.dmg) and open it.
+1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.dmg) and open it.
 2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
 3. Activate with the personal code supplied by the developer, then open a local Git repository.
 

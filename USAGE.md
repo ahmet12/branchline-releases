@@ -28,7 +28,7 @@ required for app activation; a GitHub account is needed to post an issue.
 | English | [Personal Access Terms](legal/personal/2026-09-08.1/terms.en.md) | [Privacy Notice](legal/personal/2026-09-08.1/privacy.en.md) |
 | Türkçe | [Kişisel Kullanım Koşulları](legal/personal/2026-09-08.1/terms.tr.md) | [Gizlilik Bildirimi](legal/personal/2026-09-08.1/privacy.tr.md) |
 
-Document version: **2026-09-08.1**. These exact texts are included in Branchline 0.1.0 (5).
+Document version: **2026-09-08.1**. These exact texts are included in Branchline 0.1.0 (5) and 0.2.0 (6).
 Existing license periods and earlier acceptance records are preserved. Purchased-license terms are listed separately below; they do not change personal access.
 
 ## Purchased-license terms
@@ -36,8 +36,8 @@ Existing license periods and earlier acceptance records are preserved. Purchased
 Paid sales are not open yet. These notices describe the planned one-time purchase:
 USD 39 for one person on up to three Macs, twelve calendar months of updates from
 purchase and perpetual use of covered versions. There is no subscription or automatic
-renewal. A purchased key requires Branchline 0.2.0 or later; the current 0.1.0 download
-supports personal codes only.
+renewal. The current Branchline 0.2.0 download supports purchased licenses and existing
+personal codes. Live sales remain closed while the store application is under review.
 
 | Language | Purchased-license terms | Privacy notice |
 | --- | --- | --- |
