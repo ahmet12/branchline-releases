@@ -29,8 +29,23 @@ required for app activation; a GitHub account is needed to post an issue.
 | Türkçe | [Kişisel Kullanım Koşulları](legal/personal/2026-09-08.1/terms.tr.md) | [Gizlilik Bildirimi](legal/personal/2026-09-08.1/privacy.tr.md) |
 
 Document version: **2026-09-08.1**. These exact texts are included in Branchline 0.1.0 (5).
-Existing license periods and earlier acceptance records are preserved. Commercial terms
-and pricing will be published separately before paid sales.
+Existing license periods and earlier acceptance records are preserved. Purchased-license terms are listed separately below; they do not change personal access.
+
+## Purchased-license terms
+
+Paid sales are not open yet. These notices describe the planned one-time purchase:
+USD 39 for one person on up to three Macs, twelve calendar months of updates from
+purchase and perpetual use of covered versions. There is no subscription or automatic
+renewal. A purchased key requires Branchline 0.2.0 or later; the current 0.1.0 download
+supports personal codes only.
+
+| Language | Purchased-license terms | Privacy notice |
+| --- | --- | --- |
+| English | [Purchased License Terms](legal/paid/2026-09-08/terms.en.md) | [Purchased License Privacy Notice](legal/paid/2026-09-08/privacy.en.md) |
+| Türkçe | [Satın Alınmış Lisans Koşulları](legal/paid/2026-09-08/terms.tr.md) | [Satın Alınmış Lisans Gizlilik Bildirimi](legal/paid/2026-09-08/privacy.tr.md) |
+
+Document version: **paid-2026-09-08**. These texts apply to a purchase under this offer;
+they do not grant access just by downloading Branchline.
 
 ## Public material and dependencies
 
