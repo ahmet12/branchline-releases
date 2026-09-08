@@ -1,6 +1,7 @@
 # Usage and licensing
 
-Branchline is proprietary software developed by Ahmet Kılıç.
+Branchline is proprietary software developed by Ahmet Kılıç under the independent
+developer brand Kylindravia.
 
 This public repository provides product information and a place for feedback. It does
 not contain the application source, and being public does not make Branchline open source

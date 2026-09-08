@@ -10,9 +10,14 @@ feedback; application source changes are maintained separately.
 
 ## Private support
 
-Private support contact will be listed here before beta invitations are distributed.
-If you have already been in direct contact with the developer, continue that private conversation.
-Do not post an email address, activation code, purchase information, or sensitive report in an issue.
+For activation, device changes, purchase questions, or a report that cannot be shared
+publicly, email **[kylindravia@gmail.com](mailto:kylindravia@gmail.com?subject=Branchline%20support)**.
+Include “Branchline” in the subject so it reaches the right product's support queue.
+English and Turkish are welcome. Support is provided by Ahmet Kılıç, the independent
+developer behind Kylindravia.
+
+Do not post your contact details, activation code, purchase information, or sensitive
+report in an issue. Never send passwords, Git credentials, or usable access tokens.
 
 For a suspected security problem, follow [the security reporting guidance](SECURITY.md).
 

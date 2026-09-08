@@ -2,6 +2,8 @@
 
 # Branchline
 
+*by Kylindravia*
+
 **A focused Git workspace for macOS.**
 
 Readable history. Full-size diffs. Room to resolve conflicts.
@@ -77,7 +79,8 @@ then use the bug or feature form. Issues and attachments are public. See
 
 ## Software and terms
 
-Branchline is proprietary software developed by Ahmet Kılıç. This repository contains
+Branchline is proprietary software developed by Ahmet Kılıç under the independent
+developer brand **Kylindravia**. This repository contains
 public product and support material; the application source is maintained separately.
 Public download access will not grant an application license.
 
