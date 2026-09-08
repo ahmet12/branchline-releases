@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:branchline="https://github.com/ahmet12/branchline-releases/updates" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Branchline</title>
+        <item>
+            <title>0.1.0</title>
+            <pubDate>Tue, 08 Sep 2026 17:09:28 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.1.0
+
+The first official release of Branchline by Kylindravia: a native Git workspace for macOS.
+
+- Follow commit history with expandable branch folders and resizable graph columns.
+- Open full-size file diffs and resolve conflicts in a focused window workspace.
+- Stage files, hunks and lines, preserve commit drafts, and switch between open repositories.
+- Find changed files instantly by file name or folder path, including previous names of renamed files.
+  Search works in both Folder tree and Flat list, shows the result count, and keeps your open diff.
+- Install from the signed and Apple-notarized DMG. Future versions arrive through signed in-app updates.
+
+Requires macOS 14 or later; the universal application contains Apple silicon and Intel code.
+The release has been exercised on Apple silicon/macOS 26; macOS 14 and physical Intel
+coverage remains limited. Feedback and feature requests are welcome through
+[GitHub Issues](https://github.com/ahmet12/branchline-releases/issues).
+
+App use requires an individual activation code provided by the developer. Current free
+personal access lasts 180 days from first successful activation on one active Mac.
+There is no required beta testing program, public trial, paid checkout or automatic subscription.
+
+[Personal Access Terms and Privacy Notice](https://github.com/ahmet12/branchline-releases/blob/main/USAGE.md)
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.zip" length="13863217" type="application/octet-stream" sparkle:edSignature="czO/tq6T8rjaGFD3xqnl0BZbP8ZUGjnDX2p4p8HjU5HmmDbV65H4pRtgN4gaowTEzBLsffuRnkEc9K+c0YDYBQ=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind></item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: e2MOLU+bBXBoE4PQUo4jDskaKd78sf52UGcJ8jt/A96xXBxqKT6Z1u4GODiVty8WPLYCl/o8Q26agPbUkq8YDA==
+length: 2729
+-->

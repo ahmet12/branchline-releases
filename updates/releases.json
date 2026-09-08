@@ -1,0 +1,13 @@
+[
+  {
+    "tag": "v0.1.0",
+    "version": "0.1.0",
+    "build": "5",
+    "channel": "stable",
+    "sha256": {
+      "Branchline-0.1.0-5.dmg": "80f14bef6dcf93908b6e361238d16a17cf3b1042cbc43f837b4dacb36b8dd17b",
+      "Branchline-0.1.0-5.zip": "10ecbdf9fd0700a74d4d66c381706f1727993e8bbc755fc466989e0903b5f94c",
+      "SHA256SUMS.txt": "5909321e4573752aa76547fb01ee44987854177b85a95fdf04b246e136e77aa1"
+    }
+  }
+]
