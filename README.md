@@ -54,13 +54,17 @@ accompany the first release.
 
 ## Installation when the first release is available
 
-1. Download `Branchline.zip` from a release on this repository and expand it.
-2. Move `Branchline.app` to Applications and open it.
+1. Download `Branchline.dmg` from a release on this repository and open it.
+2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
 3. Activate with the individual code supplied with your invitation, then open a local Git repository.
 
 These are the planned installation steps. Packages will be published after signing,
 Apple notarization, activation, and release checks are complete. The activation code
 will belong in Branchline, never in a GitHub issue.
+
+A project-owned Homebrew cask is also planned for people who prefer terminal installation.
+It will install the same app and require the same activation. The installation command
+will appear here once the cask and first verified release are available.
 
 ## Feedback is welcome
 
