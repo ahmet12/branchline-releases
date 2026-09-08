@@ -12,8 +12,12 @@ Readable history. Full-size diffs. Room to resolve conflicts.
 
 </div>
 
-> **Preparing for an invitation-only beta.** No application download is available yet.
-> This is the official home for Branchline release notes, future downloads, and public feedback.
+**[Download Branchline 0.1.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.1.0)
+
+macOS 14 or later · Apple silicon and Intel · Signed and notarized by Apple
+
+An individual activation code is required. Current free personal access lasts 180 days
+from first activation on one active Mac. Downloading alone does not grant access.
 
 ![Branchline history with expandable branch folders, a central graph, and changed files in the inspector](assets/history.png)
 
@@ -26,6 +30,7 @@ read their history in a resizable graph, and keep the details of the selected co
 
 - **History you can follow.** Branch and tag names sit before the graph. Resize columns to fit the way you read.
 - **Diffs that take the center.** Selecting a changed file replaces the whole graph area. Move between files from the inspector; close the diff to return to history.
+- **Find the file you need.** Quick search filters changed files by name or path in both the folder tree and flat list, while your full-size diff stays open.
 - **A focused conflict workspace.** Compare Current, Incoming, and Base, edit the result, and review each resolution in a workspace that fills the window.
 - **Control over your next commit.** Stage files, hunks, or selected lines. Review the staged diff, prepare your message, and keep drafts across sessions.
 - **Several repositories, one workspace.** Keep repositories open and switch from the repository dropdown.
@@ -40,33 +45,34 @@ read their history in a resizable graph, and keep the details of the selected co
 
 </details>
 
-## Availability
+## Install
 
-Branchline is being prepared for macOS 14 or later. Distribution is planned for Apple silicon
-and Intel Macs; final compatibility checks are part of beta preparation.
-
-The first beta will be available to testers personally invited by the developer.
-When ready, the **same application package** will be available from [Releases](https://github.com/ahmet12/branchline-releases/releases).
-Downloading it will be public; using it will require an individual activation code.
-There is no public trial or paid checkout available today.
-
-Invited testers will receive their activation details privately. An invitation or beta
-license does not automatically include a future paid license. Exact beta terms will
-accompany the first release and are [available to read now in English and Turkish](USAGE.md#before-the-beta).
-
-## Installation when the first release is available
-
-1. Download `Branchline.dmg` from a release on this repository and open it.
+1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.1.0/Branchline-0.1.0-5.dmg) and open it.
 2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
-3. Activate with the individual code supplied with your invitation, then open a local Git repository.
+3. Activate with the personal code supplied by the developer, then open a local Git repository.
 
-These are the planned installation steps. Packages will be published after signing,
-Apple notarization, activation, and release checks are complete. The activation code
-will belong in Branchline, never in a GitHub issue.
+Prefer Terminal? Install the same app with Homebrew:
 
-A project-owned Homebrew cask is also planned for people who prefer terminal installation.
-It will install the same app and require the same activation. The installation command
-will appear here once the cask and first verified release are available.
+```bash
+brew install --cask ahmet12/tap/branchline
+```
+
+Future versions are available through **Branchline → Check for Updates…**. You can
+also close the app and run `brew upgrade --cask ahmet12/tap/branchline`.
+Your repositories, drafts and activation stay on your Mac.
+
+## Personal access
+
+This is the official release. There is no required beta testing program: use Branchline
+normally and share feedback only if you want to. The developer privately provides
+individual codes; codes should never be posted in GitHub Issues.
+
+There is no public trial, paid checkout, automatic subscription, or promise of a future
+paid license. [Personal Access Terms and Privacy Notice](USAGE.md) are available in English
+and Turkish and are included in the app for offline reading.
+
+The universal app targets macOS 14 or later. Current release verification was performed
+on Apple silicon/macOS 26; macOS 14 and physical Intel coverage remains limited.
 
 ## Feedback is welcome
 
@@ -82,6 +88,6 @@ then use the bug or feature form. Issues and attachments are public. See
 Branchline is proprietary software developed by Ahmet Kılıç under the independent
 developer brand **Kylindravia**. This repository contains
 public product and support material; the application source is maintained separately.
-Public download access will not grant an application license.
+Public download access does not grant an application license.
 
 See [usage and licensing](USAGE.md) and [third-party notice guidance](THIRD_PARTY_NOTICES.md).

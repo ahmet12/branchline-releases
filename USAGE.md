@@ -1,41 +1,36 @@
 # Usage and licensing
 
 Branchline is proprietary software developed by Ahmet Kılıç under the independent
-developer brand Kylindravia.
+developer brand Kylindravia. This public repository contains downloads, product information
+and feedback; the application source is maintained separately.
 
-This public repository provides product information and a place for feedback. It does
-not contain the application source, and being public does not make Branchline open source
-or grant a right to use the application.
+## Personal access
 
-## Before the beta
+The official release can be [downloaded publicly](https://github.com/ahmet12/branchline-releases/releases/latest).
+Using it requires an individual activation code provided privately by the developer.
+Current free personal access lasts **180 days from first successful activation on one
+active Mac**. Downloading a package does not grant a license or start the access period.
 
-No application package is available from this repository yet. The beta documents are
-available now so invited testers can read them before downloading or activating:
+First activation requires internet access. Activated access works offline until its
+recorded expiry. Reinstalling, updating or changing Macs does not restart that period.
+Deactivate the old Mac before activating another; contact private support if it is unavailable.
 
-| Language | Beta usage terms | Privacy notice |
+There is no required beta program, feedback obligation, public trial, paid checkout,
+automatic subscription or entitlement to a future paid license. GitHub login is not
+required for app activation; a GitHub account is needed to post an issue.
+
+<a id="before-the-beta"></a>
+
+## Terms and privacy
+
+| Language | Personal access terms | Privacy notice |
 | --- | --- | --- |
-| English | [Beta Terms](legal/beta/2026-09-08/terms.en.md) | [Privacy Notice](legal/beta/2026-09-08/privacy.en.md) |
-| Türkçe | [Beta Kullanım Koşulları](legal/beta/2026-09-08/terms.tr.md) | [Gizlilik Bildirimi](legal/beta/2026-09-08/privacy.tr.md) |
+| English | [Personal Access Terms](legal/personal/2026-09-08.1/terms.en.md) | [Privacy Notice](legal/personal/2026-09-08.1/privacy.en.md) |
+| Türkçe | [Kişisel Kullanım Koşulları](legal/personal/2026-09-08.1/terms.tr.md) | [Gizlilik Bildirimi](legal/personal/2026-09-08.1/privacy.tr.md) |
 
-Document version: **2026-09-08**. These are the same texts bundled in the upcoming beta.
-Publishing these documents does not open registration or grant a license.
-Commercial terms and pricing will be published separately before paid sales.
-
-## Planned beta access
-
-The developer will choose testers and privately provide individual activation codes.
-When available, the package on Releases will be downloadable by anyone, while use of
-the application will require a valid entitlement. A shared download link is not a shared
-license. Beta access does not automatically grant a future paid license.
-
-Each invitation provides **180 days from the first successful activation on one active
-Mac**. First activation requires an internet connection; activated access works offline
-until its recorded expiry. Reinstalling, updating, or changing Macs does not restart
-the period. See the Beta Terms above for device changes, expiry, and recovery behavior.
-
-The same application package will serve beta and commercial entitlements. A GitHub account
-will not be an application activation requirement. A GitHub account is needed to post
-feedback on GitHub.
+Document version: **2026-09-08.1**. These exact texts are included in Branchline 0.1.0 (5).
+Existing license periods and earlier acceptance records are preserved. Commercial terms
+and pricing will be published separately before paid sales.
 
 ## Public material and dependencies
 
@@ -43,5 +38,5 @@ Branchline-owned material in this repository is covered by the [repository notic
 User-submitted issues and comments remain subject to their authors' rights and GitHub's terms.
 Third-party components retain their own licenses; see [third-party notice guidance](THIRD_PARTY_NOTICES.md).
 
-This page summarizes distribution status. The linked Beta Terms and Privacy Notice
-provide the full beta conditions and data-handling details.
+This page summarizes distribution. The linked terms and privacy notice provide the full
+personal-access conditions and data-handling details.
