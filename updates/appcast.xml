@@ -4,6 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 09 Sep 2026 10:07:23 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.3.0
+
+- Manage linked worktrees directly from branch menus: open an existing worktree, rename its branch, or remove the worktree with the option to delete its local branch. Removal previews show the target and local changes, with recovery guidance when an operation cannot finish.
+- Compare branches and commits with your current branch or working directory. Search the changed files and read each diff in the full center workspace.
+- Update a selected branch with fast-forward or merge, choose its upstream, and pull or push the intended branch even when it is open in another worktree.
+- Edit commit messages, drop a commit, or open an interactive rebase for commits after a selected point. Review the affected history and published-commit warning before applying changes; the planner supports message changes and reordering.
+- Pin a branch's first-parent history to the left of the graph. The preference is remembered per repository and shared with linked worktrees; hiding or soloing branches temporarily pauses the pin without losing it.
+
+Requires macOS 14 or later. Supports Apple silicon and Intel.
+Existing personal invitation licenses continue to work. Paid checkout availability is announced separately after store approval.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.3.0/Branchline-0.3.0-7.zip" length="14444828" type="application/octet-stream" sparkle:edSignature="v2itPMhwqxdwEr6KVJQ3uBoX5TsB1izt+EWO88KdcQakaZ0dESpHhtiUV3fnQuf+Cghh4lAZ2R/0qLz94sGLAw=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788937120</branchline:releaseDate></item>
+        <item>
             <title>0.2.0</title>
             <pubDate>Wed, 09 Sep 2026 00:09:19 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -22,7 +42,9 @@ Requires macOS 14 or later. Supports Apple silicon and Intel.
 Paid checkout availability is announced separately after store approval.
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.zip" length="13921486" type="application/octet-stream" sparkle:edSignature="T3GdSTGgdHQknwP+Gbo6Vu5TnfJrYcclXOSac1iyZ1De2gNb01w/rWT9AEGPklCYuQy5Po22t2Y8+TeRfulCAQ=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788900674</branchline:releaseDate></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+            <branchline:releaseDate>1788900674</branchline:releaseDate>
+        </item>
         <item>
             <title>0.1.0</title>
             <pubDate>Tue, 08 Sep 2026 17:09:28 +0300</pubDate>
@@ -57,6 +79,6 @@ There is no required beta testing program, public trial, paid checkout or automa
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 0PJKPH+U955KRMRgNN29ayftFRg7L34WM3azC22fEfy0xaalR1WWGX1QHBLcS/o5uKW66zTeIQdDF0xsp7ODBg==
-length: 4526
+edSignature: TCMHI5jGNWbjrvFVGKNT+73qzYqldSV6UGl/hk/Z+A8X6YaiX3IbhIOBvosr7Yyu5No6YEV69HDc1rbzBflvDg==
+length: 6680
 -->
