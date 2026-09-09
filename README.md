@@ -12,7 +12,7 @@ Readable history. Full-size diffs. Room to resolve conflicts.
 
 </div>
 
-**[Download Branchline 0.4.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.4.0)
+**[Download Branchline 0.4.1 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.1/Branchline-0.4.1-10.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.4.1)
 
 macOS 14 or later · Apple silicon and Intel · Signed and notarized by Apple
 
@@ -52,7 +52,7 @@ read their history in a resizable graph, and keep the details of the selected co
 
 ## Install
 
-1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.dmg) and open it.
+1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.1/Branchline-0.4.1-10.dmg) and open it.
 2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
 3. Activate with the personal code supplied by the developer, then open a local Git repository.
 
@@ -65,6 +65,11 @@ brew install --cask ahmet12/tap/branchline
 Future versions are available through **Branchline → Check for Updates…**. You can
 also close the app and run `brew upgrade --cask ahmet12/tap/branchline`.
 Your repositories, drafts and activation stay on your Mac.
+
+Starting with 0.4.1, **Settings → Diagnostics** offers optional crash and macOS-provided
+hang reporting. It is off by default. Enable **Share crash and hang reports** on each
+Mac if you want to help diagnose failures; **Send Test Report** checks delivery without
+crashing the app. macOS may not generate a report for every freeze. See [privacy details](USAGE.md#optional-stability-reporting).
 
 ## Personal access
 

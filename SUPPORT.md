@@ -17,11 +17,11 @@ English and Turkish are welcome. Support is provided by Ahmet Kılıç, the inde
 developer behind Kylindravia.
 
 Read how invitations, license records, and support correspondence are handled:
-[Privacy Notice](legal/personal/2026-09-08.1/privacy.en.md) ·
-[Gizlilik Bildirimi](legal/personal/2026-09-08.1/privacy.tr.md).
+[Privacy Notice](legal/personal/2026-09-09/privacy.en.md) ·
+[Gizlilik Bildirimi](legal/personal/2026-09-09/privacy.tr.md).
 For access duration, moving Macs, and recovery access, see
-[Personal Access Terms](legal/personal/2026-09-08.1/terms.en.md) ·
-[Kişisel Kullanım Koşulları](legal/personal/2026-09-08.1/terms.tr.md).
+[Personal Access Terms](legal/personal/2026-09-09/terms.en.md) ·
+[Kişisel Kullanım Koşulları](legal/personal/2026-09-09/terms.tr.md).
 
 Do not post your contact details, activation code, purchase information, or sensitive
 report in an issue. Never send passwords, Git credentials, or usable access tokens.
@@ -42,6 +42,19 @@ It includes app/macOS versions, display preferences, anonymous repository counts
 operation states. It excludes repository names and paths, branch names, remote URLs,
 commit and file content, error messages, environment variables, and credentials.
 Preparing or saving it does not upload it. Attach a reviewed report only if it helps explain the problem.
+
+## Optional crash and hang reports
+
+In Branchline 0.4.1 or later, open **Settings → Diagnostics** and enable
+**Share crash and hang reports** on each Mac where you want reporting. It is off by
+default. **Send Test Report** checks delivery without crashing the app; its report ID
+can help locate your test. After a real crash, reopen Branchline so a pending report
+can be sent. macOS controls hang diagnostics; not every freeze is reported.
+
+Reporting sends technical stack traces and recent Git operation types to Kylindravia's
+Sentry project. Repository contents and credentials are excluded. You can turn reporting
+off at any time. See the [privacy notice](legal/personal/2026-09-09/privacy.en.md).
+The local **Help → Diagnostic Report…** export remains a separate, manually shared report.
 
 ## Reading issue status
 
