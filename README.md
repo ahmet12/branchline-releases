@@ -12,7 +12,7 @@ Readable history. Full-size diffs. Room to resolve conflicts.
 
 </div>
 
-**[Download Branchline 0.2.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.2.0)
+**[Download Branchline 0.3.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.3.0/Branchline-0.3.0-7.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.3.0)
 
 macOS 14 or later · Apple silicon and Intel · Signed and notarized by Apple
 
@@ -28,12 +28,14 @@ from first activation on one active Mac. Downloading alone does not grant access
 Branchline brings everyday Git work into a native Mac interface. Browse branches as folders,
 read their history in a resizable graph, and keep the details of the selected commit close by.
 
-- **History you can follow.** Branch and tag names sit before the graph. Resize columns to fit the way you read.
+- **History you can follow.** Branch and tag names sit before the graph. Resize columns to fit the way you read, and pin a branch’s history to the left.
 - **Diffs that take the center.** Selecting a changed file replaces the whole graph area. Move between files from the inspector; close the diff to return to history.
 - **Find the file you need.** Quick search filters changed files by name or path in both the folder tree and flat list, while your full-size diff stays open.
 - **A focused conflict workspace.** Compare Current, Incoming, and Base, edit the result, and review each resolution in a workspace that fills the window.
 - **Control over your next commit.** Stage files, hunks, or selected lines. Review the staged diff, prepare your message, and keep drafts across sessions.
 - **Several repositories, one workspace.** Keep repositories open and switch from the repository dropdown.
+- **Worktrees within reach.** Open an occupied branch’s worktree, rename its branch, or review and remove the worktree from its branch menu.
+- **Review before rewriting.** Compare branches and working files, edit commit messages, and arrange an interactive rebase with the affected history clearly shown.
 - **Everyday Git tools.** Branches, remotes, worktrees, stash, merge, rebase, cherry-pick, revert, blame, and an integrated terminal.
 
 <details>
@@ -47,7 +49,7 @@ read their history in a resizable graph, and keep the details of the selected co
 
 ## Install
 
-1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.2.0/Branchline-0.2.0-6.dmg) and open it.
+1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.3.0/Branchline-0.3.0-7.dmg) and open it.
 2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
 3. Activate with the personal code supplied by the developer, then open a local Git repository.
 
