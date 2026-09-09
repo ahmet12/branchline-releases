@@ -4,6 +4,29 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.4.0</title>
+            <pubDate>Wed, 09 Sep 2026 18:45:28 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.4.0
+
+This release makes branch tracking clearer and adds recovery tools for everyday Git work.
+
+- Branches now show separate indicators for local-only branches, missing upstreams and upstreams with a different name. Set or change the upstream from the branch menu, with consistent push destinations that preserve existing tracking settings.
+- Choose a persistent graph color for a branch from its context menu.
+- Browse stashes in the sidebar, inspect their files and full diffs, and apply, pop, delete or create a branch from the selected stash. Actions keep targeting the same stash even when the list changes.
+- Risky history operations create durable backups. The Recovery workspace lets you inspect and restore the saved state, including after reopening the app.
+- Automatic stash is enabled by default for supported merge, rebase, pull, cherry-pick and revert workflows. Staged, unstaged and untracked changes are preserved, with explicit recovery choices if restoring them conflicts. Each repository has its own automatic-stash setting.
+- Recovery now includes an on-demand Lost commits graph. Search commits found in local reflogs, inspect their changes and recover them into a new branch without switching your checkout. Commits still protected by branches, worktrees, stashes or operation backups stay out of this view.
+- Fixed a diff scrolling feedback loop that could disrupt the reading position.
+
+Requires macOS 14 or later. Existing licenses and the stable update channel remain unchanged.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.zip" length="15683779" type="application/octet-stream" sparkle:edSignature="zLTX9xVAGhO8eVn5mY0Jbp0a/5m9VvxvEvKCMLVgYKn79Uk3CVNSAlkYhmMJ2zqmLmiYpVQPhamE3uitl0IkBQ=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788968112</branchline:releaseDate></item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Wed, 09 Sep 2026 11:57:21 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -22,7 +45,9 @@ This update fixes four issues found during a manual audit of the installed appli
 Existing licenses and the stable update channel remain unchanged.
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.3.1/Branchline-0.3.1-8.zip" length="14469433" type="application/octet-stream" sparkle:edSignature="/SuXzpIHTKSnnKZbni2YhnRMR6Yf7WoHTQqe8whBsp9MQrRmXzoUrbsll8w1N9skdg1gZ7NkNg3uF1o8ljkyDg=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788943632</branchline:releaseDate></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+            <branchline:releaseDate>1788943632</branchline:releaseDate>
+        </item>
         <item>
             <title>0.3.0</title>
             <pubDate>Wed, 09 Sep 2026 10:07:23 +0300</pubDate>
@@ -101,6 +126,6 @@ There is no required beta testing program, public trial, paid checkout or automa
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: MZjmHT3AhVZioLV3UW0xadiU6BewOinGLoWdB0mT+/WLqDNCEtKVt+1dJIjDZCI+NQ8SpJEaxEqzD1Uw96klDA==
-length: 8455
+edSignature: 7uUPREvhhfKwvNJxiNfKFtWbnR0NC5zaEbBP4bXJcRC+mh+yS9oT80zvpKBxhffDQPzzMUzGXDImE3/xSx4sCg==
+length: 10880
 -->
