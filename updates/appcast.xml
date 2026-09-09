@@ -4,6 +4,26 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Wed, 09 Sep 2026 11:57:21 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.3.1
+
+This update fixes four issues found during a manual audit of the installed application.
+
+- Interactive rebase now protects ignored local files before resetting or replaying history, including recovery after a pause.
+- Worktrees with a paused Branchline rebase cannot be removed, renamed or updated from another worktree, even after their window is closed.
+- Editing older commit messages, squashing and dropping commits now respect commit signing settings. Signing failures preserve a path to retry or abort instead of producing unsigned history.
+- Submodule conflicts now show the current and incoming commit choices. Resolving the parent reference preserves the submodule's local files and checkout. Unreadable conflicts stay visibly unresolved, with retry and recovery available.
+
+Existing licenses and the stable update channel remain unchanged.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.3.1/Branchline-0.3.1-8.zip" length="14469433" type="application/octet-stream" sparkle:edSignature="/SuXzpIHTKSnnKZbni2YhnRMR6Yf7WoHTQqe8whBsp9MQrRmXzoUrbsll8w1N9skdg1gZ7NkNg3uF1o8ljkyDg=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788943632</branchline:releaseDate></item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Wed, 09 Sep 2026 10:07:23 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -22,7 +42,9 @@ Requires macOS 14 or later. Supports Apple silicon and Intel.
 Existing personal invitation licenses continue to work. Paid checkout availability is announced separately after store approval.
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.3.0/Branchline-0.3.0-7.zip" length="14444828" type="application/octet-stream" sparkle:edSignature="v2itPMhwqxdwEr6KVJQ3uBoX5TsB1izt+EWO88KdcQakaZ0dESpHhtiUV3fnQuf+Cghh4lAZ2R/0qLz94sGLAw=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788937120</branchline:releaseDate></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+            <branchline:releaseDate>1788937120</branchline:releaseDate>
+        </item>
         <item>
             <title>0.2.0</title>
             <pubDate>Wed, 09 Sep 2026 00:09:19 +0300</pubDate>
@@ -79,6 +101,6 @@ There is no required beta testing program, public trial, paid checkout or automa
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: TCMHI5jGNWbjrvFVGKNT+73qzYqldSV6UGl/hk/Z+A8X6YaiX3IbhIOBvosr7Yyu5No6YEV69HDc1rbzBflvDg==
-length: 6680
+edSignature: MZjmHT3AhVZioLV3UW0xadiU6BewOinGLoWdB0mT+/WLqDNCEtKVt+1dJIjDZCI+NQ8SpJEaxEqzD1Uw96klDA==
+length: 8455
 -->
