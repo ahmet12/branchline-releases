@@ -4,6 +4,27 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.4.1</title>
+            <pubDate>Wed, 09 Sep 2026 22:37:42 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.4.1
+
+This update improves diff scrolling, gives long branch and file names more room, and adds optional stability reporting.
+
+- Fixed a freeze that could occur when rapidly flicking the trackpad through a file diff. Momentum scrolling no longer feeds back into diff anchor layout.
+- The repository sidebar and commit inspector can now be widened further to make long branch names and file paths easier to read.
+- Added **Settings → Diagnostics** with optional crash and macOS-provided hang reporting through Sentry. Reporting is off by default. You can enable it, send a non-crashing test report, or turn it off and discard pending local reports.
+- Reports contain technical stack traces, app/macOS versions and recent Git operation types. Repository names, branch names, paths, source code, diffs, terminal output, credentials and license details are excluded. No screenshots or session recordings are collected.
+- Updated the privacy notice to explain optional reporting. macOS controls hang diagnostics; not every freeze will produce a report.
+
+Requires macOS 14 or later. Existing activation, open repositories and drafts are preserved. To help diagnose issues on another Mac, enable **Share crash and hang reports** in Settings → Diagnostics after updating.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.4.1/Branchline-0.4.1-10.zip" length="17919356" type="application/octet-stream" sparkle:edSignature="kQvOJjqoPqLf9NxHSRJXkl0tE2FxrP1dFQpvnmeRqxxRv5YsSgihH4e8lVjr2C7m0SFUyJgBmPap081wiLMoCg=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788981648</branchline:releaseDate></item>
+        <item>
             <title>0.4.0</title>
             <pubDate>Wed, 09 Sep 2026 18:45:28 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -25,7 +46,9 @@ This release makes branch tracking clearer and adds recovery tools for everyday 
 Requires macOS 14 or later. Existing licenses and the stable update channel remain unchanged.
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.zip" length="15683779" type="application/octet-stream" sparkle:edSignature="zLTX9xVAGhO8eVn5mY0Jbp0a/5m9VvxvEvKCMLVgYKn79Uk3CVNSAlkYhmMJ2zqmLmiYpVQPhamE3uitl0IkBQ=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788968112</branchline:releaseDate></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+            <branchline:releaseDate>1788968112</branchline:releaseDate>
+        </item>
         <item>
             <title>0.3.1</title>
             <pubDate>Wed, 09 Sep 2026 11:57:21 +0300</pubDate>
@@ -126,6 +149,6 @@ There is no required beta testing program, public trial, paid checkout or automa
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: 7uUPREvhhfKwvNJxiNfKFtWbnR0NC5zaEbBP4bXJcRC+mh+yS9oT80zvpKBxhffDQPzzMUzGXDImE3/xSx4sCg==
-length: 10880
+edSignature: MefN4hEvZ5rWBWLbgs0/6UtErzpMCXJdLeFesYzXcmXzSzMfxBHudmepSeRQRctoRAwisxSFaNtLRDweC/qrBg==
+length: 13069
 -->

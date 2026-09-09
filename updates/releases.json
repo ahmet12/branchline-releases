@@ -57,5 +57,17 @@
       "SHA256SUMS.txt": "9887dbd98cd24c9479f6b1142c0a64b442a78132bbe46d711ec5fd130c603002"
     },
     "releaseDate": "1788968112"
+  },
+  {
+    "tag": "v0.4.1",
+    "version": "0.4.1",
+    "build": "10",
+    "channel": "stable",
+    "sha256": {
+      "Branchline-0.4.1-10.dmg": "30972cac6bcaf2871cb353706e724f904206051724c934d9a1d67b1e359d7966",
+      "Branchline-0.4.1-10.zip": "26ca10febc4232053901f688765855b346ff8bfccf94bd9ab6be14e526463438",
+      "SHA256SUMS.txt": "ac4e055684088b13ee14146ff54617029cd0ee4d3a76120bd34e4013ba03359f"
+    },
+    "releaseDate": "1788981648"
   }
 ]
