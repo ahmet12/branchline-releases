@@ -12,7 +12,7 @@ Readable history. Full-size diffs. Room to resolve conflicts.
 
 </div>
 
-**[Download Branchline 0.3.1 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.3.1/Branchline-0.3.1-8.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.3.1)
+**[Download Branchline 0.4.0 for Mac](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.dmg)** · [Release notes](https://github.com/ahmet12/branchline-releases/releases/tag/v0.4.0)
 
 macOS 14 or later · Apple silicon and Intel · Signed and notarized by Apple
 
@@ -36,6 +36,9 @@ read their history in a resizable graph, and keep the details of the selected co
 - **Several repositories, one workspace.** Keep repositories open and switch from the repository dropdown.
 - **Worktrees within reach.** Open an occupied branch’s worktree, rename its branch, or review and remove the worktree from its branch menu.
 - **Review before rewriting.** Compare branches and working files, edit commit messages, and arrange an interactive rebase with the affected history clearly shown.
+- **Clear branch tracking.** See local-only branches, missing or differently named upstreams, and choose a persistent graph color for each branch.
+- **Stashes you can inspect.** Browse saved work in the sidebar and review its files before applying it.
+- **Recovery within reach.** Inspect automatic operation backups, restore saved local changes, and find lost commits in a separate reflog graph.
 - **Everyday Git tools.** Branches, remotes, worktrees, stash, merge, rebase, cherry-pick, revert, blame, and an integrated terminal.
 
 <details>
@@ -49,7 +52,7 @@ read their history in a resizable graph, and keep the details of the selected co
 
 ## Install
 
-1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.3.1/Branchline-0.3.1-8.dmg) and open it.
+1. [Download the DMG](https://github.com/ahmet12/branchline-releases/releases/download/v0.4.0/Branchline-0.4.0-9.dmg) and open it.
 2. Drag Branchline to Applications, eject the disk image, and open Branchline from Applications.
 3. Activate with the personal code supplied by the developer, then open a local Git repository.
 
