@@ -4,6 +4,25 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Branchline</title>
         <item>
+            <title>0.4.2</title>
+            <pubDate>Thu, 10 Sep 2026 14:54:55 +0300</pubDate>
+            <link>https://github.com/ahmet12/branchline-releases</link>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"># Branchline 0.4.2
+
+This hotfix fixes severe interface freezes and runaway memory use during remote Git operations.
+
+- Pull, push, fetch, clone, unshallow and submodule progress now stays bounded even when libgit2 emits a very large number of transfer updates.
+- Finishing a repository operation no longer starts the same expensive graph and working-tree refresh twice in the active window.
+- Cancelled refreshes stop between repository reads, reducing queued work when several changes arrive together.
+
+Requires macOS 14 or later. Existing activation, open repositories, settings and drafts are preserved.
+</description>
+            <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.4.2/Branchline-0.4.2-11.zip" length="17923684" type="application/octet-stream" sparkle:edSignature="28kgEPnVk+ZbF+L8Ua/lgQ0Fd62Ak1WdDKw0+ZaRk/PBhIHeMr3DDjPQ80Q1aC6IhU43x/3TL0jSLcEdjEvuAw=="></enclosure>
+        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1789037635</branchline:releaseDate></item>
+        <item>
             <title>0.4.1</title>
             <pubDate>Wed, 09 Sep 2026 22:37:42 +0300</pubDate>
             <link>https://github.com/ahmet12/branchline-releases</link>
@@ -23,7 +42,9 @@ This update improves diff scrolling, gives long branch and file names more room,
 Requires macOS 14 or later. Existing activation, open repositories and drafts are preserved. To help diagnose issues on another Mac, enable **Share crash and hang reports** in Settings → Diagnostics after updating.
 </description>
             <enclosure url="https://github.com/ahmet12/branchline-releases/releases/download/v0.4.1/Branchline-0.4.1-10.zip" length="17919356" type="application/octet-stream" sparkle:edSignature="kQvOJjqoPqLf9NxHSRJXkl0tE2FxrP1dFQpvnmeRqxxRv5YsSgihH4e8lVjr2C7m0SFUyJgBmPap081wiLMoCg=="></enclosure>
-        <branchline:licenseKind>beta</branchline:licenseKind><branchline:releaseDate>1788981648</branchline:releaseDate></item>
+            <branchline:licenseKind>beta</branchline:licenseKind>
+            <branchline:releaseDate>1788981648</branchline:releaseDate>
+        </item>
         <item>
             <title>0.4.0</title>
             <pubDate>Wed, 09 Sep 2026 18:45:28 +0300</pubDate>
@@ -149,6 +170,6 @@ There is no required beta testing program, public trial, paid checkout or automa
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: MefN4hEvZ5rWBWLbgs0/6UtErzpMCXJdLeFesYzXcmXzSzMfxBHudmepSeRQRctoRAwisxSFaNtLRDweC/qrBg==
-length: 13069
+edSignature: q9fZgEQRTBs2DwJT8JZYaOTiQt+hNKVGcDZBzGBN/pS0mJAW9xIpQ0midGUos6Zrmurc2gRvSc0Ffm3i/KZ1BA==
+length: 14583
 -->
